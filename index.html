@@ -16,20 +16,33 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+        
+        
         <header>
             <h1>Daily Journal</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href='index.html'>Entries</a>
+                    </li>
+                    <li>
+                        <a href='entryviewer.html'>View Entries</a>
+                    </li>
+                </ul>
+            </nav>
         </header>
 
         <main>
-            <form action="/action_page.php">
+            <form id="my-form">
                 <fieldset>
                     <label for="date">Date of entry:</label>
-                    <input type="date" id="date" name="date"><br><br>
+                    <input type="date" id="date" name="date" ><br><br>
                     <label for="concepts">Concepts covered:</label>
-                    <input type="text" id="concepts" name="concepts"><br><br>
+                    <input type="text" id="concepts" name="concepts" ><br><br>
                     <label for="jentry">Journal entry</label>
-                    <textarea id="jentry" name="jentry" rows="4" cols="50"></textarea><br><br>
-                    <input type="submit" value="Submit">
+                    <textarea id="jentry" name="jentry" rows="4" cols="50" ></textarea><br><br>
+                    <input type="submit" value="Submit" onclick="addEntry()">
+                    
                 </fieldset>
             </form>
             
@@ -39,6 +52,6 @@
             
         </footer>
         
-        <script src="scripts\main.js" async defer></script>
+        <script src="scripts\main.js"></script>
     </body>
 </html>
