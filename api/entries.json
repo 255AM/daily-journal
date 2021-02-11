@@ -1,0 +1,37 @@
+{
+  "entries": [
+    {
+      "concept": "time",
+      "date": "2018-06-12T19:30",
+      "entry": "and time again",
+      "moodId": "1",
+      "id": 1
+    }
+  ],
+  "moods": [
+    {
+      "id": 1,
+      "label": "Ok"
+    },
+    {
+      "id": 2,
+      "label": "Verklempt"
+    },
+    {
+      "id": 3,
+      "label": "Sup!"
+    },
+    {
+      "id": 4,
+      "label": "scurd"
+    },
+    {
+      "id": 5,
+      "label": "Skeerd"
+    },
+    {
+      "id": 6,
+      "label": "awful"
+    }
+  ]
+}
