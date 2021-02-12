@@ -6,7 +6,6 @@ export const createSingleEntryFunction = (entry) => {
             <div class="date">Date: ${entry.date}</div>
             <div class="entry">Entry: ${entry.entry}</div>
             <div class="mood">Mood: ${entry.mood.label}</div>
-            <br>
         </div>
     `
 }

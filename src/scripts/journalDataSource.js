@@ -1,3 +1,5 @@
+//import { entriesList } from "./journalEntryList"
+
 let entries = []
 export const useEntries = () => {
     entries.sort(
@@ -50,4 +52,13 @@ export const getMoods = () =>{
 
 export const useMoods = () =>{
     return moods.slice()
+}
+
+export const deleteNote = entryId => {
+    
+    return fetch(`http://localhost:8088/entries/${entryId}`, {
+        method: "DELETE"
+        
+    })
+    
 }
